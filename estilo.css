@@ -1,0 +1,58 @@
+/* Todos os elementos da página */
+* {
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	font-size: 16px;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+	width: 800px;
+	height: auto;
+	margin: 30px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.div_cv_page {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 30px;
+}
+
+.section_cv {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+#sobre_cv {
+	margin-bottom: 40px;
+}
+
+.desc_cv {
+	font-size: 14px;
+}
+
+.title_section {
+	margin-bottom: 10px;
+}
+
+.item_lista_experiencia, .item_lista_formacao, .item_lista_idioma, .item_lista_infoAdd {
+	margin-bottom: 15px;
+}
+
+.lista_experiencia > li:last-child, .lista_formacao > li:last-child, .lista_idioma > li:last-child, .lista_infoAdd > li:last-child {
+	margin-bottom: 0px;
+}
